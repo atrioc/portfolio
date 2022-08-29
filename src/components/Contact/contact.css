@@ -1,0 +1,57 @@
+form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+  
+}
+.c-left{
+    margin-left: 3.8rem;
+    padding:3.8rem;
+}
+
+input,textarea{
+    width: 100;
+    padding: 0.9rem;
+    border-radius: 0.4rem;
+    resize:none;
+}
+
+label{
+    font-family: var(--font-family-2);
+    color:#bff4ed;
+}
+
+.btn-submit{
+    text-align: center;
+    width: 16%;
+    margin-top: 3rem;
+    font-family: var(--font-family-2);
+    
+    
+}
+.btn-submit:hover{
+    background-color:#bff4ed}
+
+    
+.c-right{
+    font-family: var(--font-family-2);
+    color:#bff4ed;
+    position: absolute;
+    font-size:2.6rem;
+    animation:move 2s ease-out infinite alternate ;
+    right: 5.9rem;
+    bottom:12rem;
+}
+@keyframes move {
+    50%{
+        transform:translateY(-0.85rem);
+    }
+}
+
+.c-doodle{
+    position: absolute;
+    right:-7.2rem;
+    top:1rem;
+    transform:scale(50%)
+    
+}

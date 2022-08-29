@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:0;
+    border:0;
+    list-style:none;
+    text-decoration: none;
+    /* background-color: #303841; */
+    /* color:#bff4ed */
+    
+}
+
+:root{
+    --primary-color:#2185d5;
+    --primary-light-color:#f3f3f3;
+    --color-light: rgba(255,255,255,0.6);
+    --font-family:'Rubik', sans-serif;
+    --font-family-2:'Silkscreen', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+/* a{
+    text-decoration:none;
+} */
+a:hover{
+    color:var(--primary-light-color)
+
+}
+
+.btn{
+    color:var(--primary--color);
+    width:max-content;
+    padding:0.9rem 1.6rem;
+    border-radius:0.6rem;
+    cursor: pointer;
+    border:none;
+    transition:all 400ms ease;
+
+}
+
+h2{
+    font-family:var(--font-family-2) ;
+    font-size: 3rem;
+}
+
+section{
+    min-height:100vh;
+}

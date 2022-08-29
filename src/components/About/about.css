@@ -1,0 +1,49 @@
+.cards{
+    min-height:100vh;
+    display: flex;
+    background-color: #303841;
+    position: relative;
+}
+
+.a-left{
+    flex: 1;
+    position: relative;
+    left: 12rem;
+    top:8rem;
+}
+
+.a-left>span{
+    position:absolute;
+    color:#bff4ed;
+    font-family: var(--font-family-2);
+    left:22rem;
+    font-size:2.6rem;
+    animation:move 2s ease-out infinite alternate ;
+
+}
+@keyframes move {
+    50%{
+        transform:translateY(-0.85rem);
+    }
+}
+.a-middle{
+    flex: 1;
+    position: absolute;
+    top:.5rem;
+    right:15rem;
+}
+.a-right{
+    flex:1;
+    position:absolute;
+    bottom:1.9rem;
+    right:4rem;
+};
+
+.dd{
+
+    position:absolute;
+    
+    
+    transform:scale(30%);
+
+}

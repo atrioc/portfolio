@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Silkscreen&display=swap');
+.Header{
+  min-height:100vh;
+  display:flex;
+  padding:7rem 15rem;
+  position: relative;
+  background-color: #303841;
+  color:#bff4ed;
+}
+
+.left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color: #bff4ed;
+    
+}
+.right{
+    flex:1;
+}
+
+.n-animation{
+    display:flex;
+    flex-direction: column;
+    font-size:2.7rem;
+    font-family: 'Silkscreen', cursive;
+}
+.wrapper{
+    display:flex;
+    overflow: hidden;
+    height:2.9rem;
+    animation:move 2s ease-out infinite alternate ;
+}
+@keyframes move {
+    50%{
+        transform:translateY(-0.85rem);
+    }
+}
+.wrapper>*:hover{
+    transform:translateY(-3.45rem);
+    transition: all 1000ms ease-out;
+    
+}
+
+
+.fontchange{
+    font-family: var(--font-family-2) ;
+}
+
+.l-scroll{
+    color:inherit;
+    font-family: silkscreen;
+    font-weight: 300;
+    font-size:.7rem;
+    text-decoration: none;
+    position: absolute;
+    right: 1.4rem;
+    bottom: 17.5rem;
+    transform: rotate(90deg);
+    
+
+}
+
+
+
+.l-socials{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 0.6rem;
+    left: 4.9rem;
+    bottom: 14.6rem;
+}
+.l-socials>a{
+    color:#bff4ed;
+    text-decoration: none;}
+
+.l-scroll::after{
+    content: "";
+    width: 1px;
+    height:2rem;
+    background:#bff4ed;
+}

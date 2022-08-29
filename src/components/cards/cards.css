@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    overflow-wrap: break-word;
+    position: relative;
+    flex-direction: column;
+    /* justify-content:center; */
+    padding:0.2rem 0.7rem;
+    
+    text-align:center;
+    height:14rem;
+    width:12rem;
+    color:aliceblue;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0.4rem;
+    border:#bff4ed solid;
+}
+
+.container span:nth-of-type(1){
+    font-family: var(--font-family-2);
+    padding:0.72rem 0rem;
+    color:#bff4ed;
+}
+
+.container span:nth-of-type(2){
+    font-family: var(--font-family-2);
+    font-size:0.59rem;
+    font-weight:100;
+}

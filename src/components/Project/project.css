@@ -1,0 +1,40 @@
+section{
+    background:#303841;
+    position: relative;
+}
+#project{
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+    padding:2rem 4rem;
+    background:#303841;
+   
+}
+
+.p-wrapper{
+    position: absolute;
+    top: 14rem;
+    right:4rem;
+    font-family: var(--font-family-2);
+    font-size:2.6rem;
+    /* margin-left: 4.9rem; */
+    color:#bff4ed;
+    animation: move 2s ease-out infinite alternate;
+}
+
+@keyframes move {
+    50%{
+        transform:translateY(-0.85rem);
+    }
+
+    }
+.r-d{
+    margin-top: 4rem;
+}
+
+.p-d{
+    position: absolute;
+    transform:scale(50%);
+    right:-7rem;
+    bottom:-12rem;
+}
