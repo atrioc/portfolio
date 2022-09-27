@@ -6,9 +6,9 @@
 }
 
 .a-left{
-    flex: 1;
+    /* flex: 1; */
     position: relative;
-    left: 12rem;
+    left: 8rem;
     top:8rem;
 }
 
@@ -17,6 +17,7 @@
     color:#bff4ed;
     font-family: var(--font-family-2);
     left:22rem;
+    bottom:13rem;
     font-size:2.6rem;
     animation:move 2s ease-out infinite alternate ;
 
@@ -27,13 +28,13 @@
     }
 }
 .a-middle{
-    flex: 1;
+    /* flex: 1; */
     position: absolute;
     top:.5rem;
-    right:15rem;
+    right:21rem;
 }
 .a-right{
-    flex:1;
+    /* flex:1; */
     position:absolute;
     bottom:1.9rem;
     right:4rem;
