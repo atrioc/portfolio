@@ -1,12 +1,12 @@
 import React from 'react'
 import "./about.css"
 import Card from "../cards/cards.jsx"
-import {motion} from  "framer-motion"
-import a_d from "./a-d.svg"
-import dd from "./dd.svg"
+// import {motion} from  "framer-motion"
+// import a_d from "./a-d.svg"
+// import dd from "./dd.svg"
 
 const About = () => {
-  const transition= {duration:2,type:"spring"}
+  // const transition= {duration:2,type:"spring"}
   return (
     <>
     <div id="about" className='cards'>
